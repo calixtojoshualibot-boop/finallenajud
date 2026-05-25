@@ -1,0 +1,60 @@
+{
+  "users": [
+    {
+      "id": "admin1",
+      "name": "Admin",
+      "email": "admin@caps.ph",
+      "password": "admin123",
+      "role": "admin",
+      "phone": "",
+      "address": ""
+    }
+  ],
+  "caps": [
+    {
+      "id": "1",
+      "name": "Bulls Dynasty Snapback",
+      "team": "Chicago Bulls",
+      "year": 1996,
+      "condition": "near-mint",
+      "price": 18000,
+      "description": "Original 1996 championship-era Bulls snapback in excellent collector condition.",
+      "image": "bulls",
+      "featured": true
+    },
+    {
+      "id": "2",
+      "name": "Lakers Showtime Fitted",
+      "team": "Los Angeles Lakers",
+      "year": 1988,
+      "condition": "excellent",
+      "price": 25000,
+      "description": "Purple and gold fitted cap inspired by the Showtime Lakers era.",
+      "image": "lakers",
+      "featured": true
+    },
+    {
+      "id": "3",
+      "name": "Celtics Garden Classic",
+      "team": "Boston Celtics",
+      "year": 1992,
+      "condition": "good",
+      "price": 14500,
+      "description": "Vintage green Celtics cap with clean embroidery and classic fit.",
+      "image": "celtics",
+      "featured": true
+    }
+  ],
+  "orders": [],
+  "contact": {
+    "shopName": "Caps Vault Manila",
+    "ownerName": "Juan Dela Cruz",
+    "phone": "+63 917 123 4567",
+    "email": "seller@capsvault.ph",
+    "address": "Makati City, Metro Manila",
+    "facebook": "facebook.com/capsvaultmanila",
+    "instagram": "@capsvaultmanila",
+    "messengerUsername": "capsvaultmanila",
+    "bio": "Collector of authentic vintage NBA caps in the Philippines."
+  }
+}

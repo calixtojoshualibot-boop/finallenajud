@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#1a1a2e"/><stop offset="100%" stop-color="#0a0a15"/></linearGradient></defs>
+  <rect width="400" height="400" fill="url(#bg)"/>
+  <!-- Cap brim -->
+  <ellipse cx="200" cy="290" rx="160" ry="30" fill="#000" stroke="#333" stroke-width="2"/>
+  <ellipse cx="200" cy="285" rx="155" ry="25" fill="#111"/>
+  <!-- Cap crown -->
+  <ellipse cx="200" cy="200" rx="130" ry="110" fill="#CE1141"/>
+  <ellipse cx="200" cy="190" rx="120" ry="95" fill="#b80e3a"/>
+  <!-- Rocket logo -->
+  <path d="M200 120 Q215 150 210 185 L200 195 L190 185 Q185 150 200 120Z" fill="#fff" stroke="#ddd" stroke-width="1"/>
+  <circle cx="200" cy="155" r="10" fill="#CE1141" stroke="#fff" stroke-width="2"/>
+  <path d="M190 185 L180 205 L190 195Z" fill="#C4CED4"/>
+  <path d="M210 185 L220 205 L210 195Z" fill="#C4CED4"/>
+  <path d="M196 200 Q200 225 204 200" fill="#F9AD1B"/>
+  <path d="M197 200 Q200 218 203 200" fill="#CE1141"/>
+  <!-- Button on top -->
+  <circle cx="200" cy="100" r="10" fill="#000" stroke="#333" stroke-width="1"/>
+  <!-- Stitching -->
+  <path d="M100 220 Q200 260 300 220" fill="none" stroke="#fff" stroke-width="1" stroke-dasharray="4,4" opacity="0.3"/>
+</svg>
