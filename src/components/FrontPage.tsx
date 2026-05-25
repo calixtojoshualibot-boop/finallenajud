@@ -71,6 +71,22 @@ export default function FrontPage({ onEnterShowcase, onAdmin }: Props) {
                 Quick Preview
               </button>
             </div>
+            {/* Location Map */}
+<div className="w-full max-w-[500px] rounded-2xl overflow-hidden mt-8 border border-white/10 shadow-lg shadow-black/50">
+  <iframe 
+    width="100%" 
+    height="250" 
+    frameBorder="0" 
+    scrolling="no" 
+    marginHeight={0} 
+    marginWidth={0} 
+    src="https://maps.google.com/maps?q=10.376253,125.208534&t=&z=15&ie=UTF8&iwloc=&output=embed"
+    style={{ border: 0 }}
+    allowFullScreen 
+    loading="lazy"
+    title="Store Location"
+  ></iframe>
+</div>
           </div>
 
           {/* Featured Preview */}
