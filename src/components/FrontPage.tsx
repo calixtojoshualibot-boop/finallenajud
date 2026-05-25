@@ -107,32 +107,7 @@ export default function FrontPage({ onEnterShowcase, onAdmin }: Props) {
                    <p className="text-stone-500 font-bold uppercase tracking-widest">Vault is loading...</p>
                 </div>
               )}
-{/* Google Maps Embed for Coordinates: 10.376253, 125.208534 */}
-<div 
-  className="map-container" 
-  style={{ 
-    width: "100%", 
-    maxWidth: "600px", 
-    borderRadius: "12px", 
-    overflow: "hidden", 
-    marginTop: "2rem" 
-  }}
->
-  <iframe 
-    width="100%" 
-    height="400" 
-    frameBorder="0" 
-    scrolling="no" 
-    marginHeight={0} 
-    marginWidth={0} 
-    src="https://maps.google.com/maps?q=10.376253,125.208534&t=&z=15&ie=UTF8&iwloc=&output=embed"
-    style={{ border: 0 }}
-    allowFullScreen 
-    loading="lazy"
-  ></iframe>
-</div>
-
-              
+</div>    
             </div>
           </div>
         </div>
