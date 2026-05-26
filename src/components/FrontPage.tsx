@@ -170,7 +170,6 @@ export default function FrontPage({ onEnterShowcase, onAdmin }: Props) {
       {/* Footer */}
       <footer className="py-12 text-center">
         <p className="text-xs text-stone-700 uppercase tracking-widest font-black">
-          © 2026 NBA CAPS VAULT — EST. MANILA, PH
         </p>
       </footer>
     </div>
