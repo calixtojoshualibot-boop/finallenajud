@@ -239,7 +239,7 @@ export default function UserDashboard({ onLogout, onBackToShowcase }: Props) {
                       {paymentMethod === 'gcash' && (
                         <div className="p-4 bg-blue-600/10 border border-blue-600/20 rounded-2xl space-y-2 animate-fade-in">
                            <div className="flex items-center gap-2 text-blue-400 font-bold text-xs uppercase"><CreditCard size={14}/> GCash Details</div>
-                           <p className="text-xs text-stone-300">Send to: <strong>0917 123 4567</strong> (Juan D.)</p>
+                           <p className="text-xs text-stone-300">Send to: <strong>09186297545</strong> (Marlo Mitra)</p>
                            <p className="text-[10px] text-stone-500 leading-tight">Please send payment before placing order. Screenshot may be required for validation.</p>
                         </div>
                       )}
