@@ -35,7 +35,7 @@ export default function FrontPage({ onEnterShowcase, onAdmin }: Props) {
           onClick={onAdmin}
           className="text-xs font-bold uppercase tracking-widest text-stone-500 hover:text-white transition-colors flex items-center gap-2"
         >
-          <ShieldCheck size={14} /> Admin Access
+          <ShieldCheck size={14} /> Acldmin Access
         </button>
       </nav>
 
@@ -48,7 +48,7 @@ export default function FrontPage({ onEnterShowcase, onAdmin }: Props) {
             </div>
             <h1 className="text-6xl sm:text-8xl font-black uppercase tracking-tighter leading-[0.9]">
               AUTHENTIC <br />
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-red-800">VINTAGE</span> <br />
+              <span assName="text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-red-800">VINTAGE</span> <br />
               NBA CAPS
             </h1>
             <p className="text-xl text-stone-400 max-w-lg leading-relaxed font-medium">
@@ -143,30 +143,6 @@ export default function FrontPage({ onEnterShowcase, onAdmin }: Props) {
           ))}
         </div>
       </section>
-{/* Google Maps Embed for 96G5+QH, Hinunangan, Southern Leyte */}
-<div 
-  className="map-container" 
-  style={{ 
-    width: "100%", 
-    maxWidth: "600px", 
-    borderRadius: "12px", 
-    overflow: "hidden", 
-    marginTop: "2rem" 
-  }}
->
-  <iframe 
-    width="100%" 
-    height="400" 
-    frameBorder="0" 
-    scrolling="no" 
-    marginHeight={0} 
-    marginWidth={0} 
-    src="https://maps.google.com/maps?q=96G5+QH,+Hinunangan,+Southern+Leyte&t=&z=15&ie=UTF8&iwloc=&output=embed"
-    style={{ border: 0 }}
-    allowFullScreen 
-    loading="lazy"
-  ></iframe>
-</div>
       {/* Footer */}
       <footer className="py-12 text-center">
         <p className="text-xs text-stone-700 uppercase tracking-widest font-black">
