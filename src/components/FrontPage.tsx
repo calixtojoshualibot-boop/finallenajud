@@ -145,10 +145,6 @@ export default function FrontPage({ onEnterShowcase, onAdmin }: Props) {
       </section>
 
 </div>
-      {/* Footer */}
-      <footer className="py-12 text-center">
-      
-      </footer>
     </div>
   );
 }
